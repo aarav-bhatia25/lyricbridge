@@ -16,8 +16,6 @@ Spotify has lyrics for millions of songs. But if the song is in Spanish, Hindi, 
 
 LyricBridge is a Chrome extension that injects real-time translations directly into Spotify's lyrics panel — inline, in sync with the music, with romanization so you can sing along too.
 
-**Play a Bad Bunny song. Watch Spanish lyrics appear with their English meaning and pronunciation — right there, below each line, as the song plays.**
-
 ---
 
 ## Why LyricBridge Is Better Than Existing Solutions
