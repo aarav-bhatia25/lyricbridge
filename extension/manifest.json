@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "LyricBridge",
+    "version": "1.0",
+    "description": "Translate Spotify lyrics in real time using AI",
+    "permissions": ["activeTab", "storage", "scripting"],
+    "host_permissions": [
+      "https://open.spotify.com/*",
+      "http://localhost:3000/*"
+    ],
+    "content_scripts": [{
+      "matches": ["https://open.spotify.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  

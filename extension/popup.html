@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 280px; font-family: Arial, sans-serif;
+           padding: 16px; background: #0a0a0a; color: #eee; }
+    h2 { margin: 0 0 4px; font-size: 16px; color: #8b86f0; }
+    .sub { font-size: 11px; color: #666; margin-bottom: 14px; }
+    label { font-size: 13px; color: #aaa; display: block; margin-bottom: 6px; }
+    select { width: 100%; padding: 7px 10px; border-radius: 6px;
+             border: 1px solid #333; background: #1a1a1a;
+             color: #eee; font-size: 13px; }
+    button { margin-top: 10px; width: 100%; padding: 9px;
+             background: #5B4FCC; color: white; border: none;
+             border-radius: 6px; cursor: pointer; font-size: 14px; }
+    button:hover { background: #4a40b8; }
+    .status { margin-top: 10px; font-size: 12px; color: #666; text-align: center; }
+  </style>
+</head>
+<body>
+  <h2>LyricBridge</h2>
+  <div class="sub">AI-powered lyric translation</div>
+  <label>Translate lyrics to:</label>
+  <select id="lang">
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+    <option value="Spanish">Spanish</option>
+    <option value="French">French</option>
+    <option value="Portuguese">Portuguese</option>
+    <option value="Japanese">Japanese</option>
+    <option value="German">German</option>
+    <option value="Arabic">Arabic</option>
+  </select>
+  <button id="apply">Apply Language</button>
+  <p class="status" id="status">Ready</p>
+  <script src="popup.js"></script>
+</body>
+</html>
+
