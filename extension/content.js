@@ -45,7 +45,7 @@ async function translateCurrentSong(trackName, artist) {
   showLoadingIndicator();
 
   try {
-    const res = await fetch('http://localhost:3000/translate', {
+    const res = await fetch('https://your-project-name.vercel.app/translate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
